@@ -1,2 +1,2 @@
 # personal-website
-My personal website/portfolio!  --> julianstefanzick.com
+My personal website! Includes information about me, my resume and portfolio, and ways to get in touch --> julianstefanzick.com
