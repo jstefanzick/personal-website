@@ -25,7 +25,7 @@ body{
     margin-left: 300px;
     margin-top: 100px;
     border-radius: 100px;
-    border: 10px;
+    border: 1vh;
     border-color: #2a7fff;
     border-style: solid;
 }
@@ -46,7 +46,7 @@ nav{
 }
 
 .logo{
-    
+    width: 80px;
 }
 
 nav ul li{
