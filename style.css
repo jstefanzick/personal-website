@@ -25,7 +25,7 @@ body{
     margin-left: 300px;
     margin-top: 100px;
     border-radius: 100px;
-    border: 1vh;
+    border: 0vh;
     border-color: #2a7fff;
     border-style: solid;
 }
@@ -45,15 +45,16 @@ nav{
     font-weight: bold;
 }
 
-.logo{
-    width: 80px;
-    font-size: 50px;
+.logo-img{
+    width: 70px;
+    height: 70px;
 }
+
 
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 40px 10px;
+    margin: 40px 20px;
 }
 
 nav ul li a{
@@ -68,7 +69,7 @@ nav ul li a::after{
     content: '';
     width: 0%;
     height: 3px;
-    background: #ffff00;
+    background: #0c0c0c;
     position: absolute;
     left: 0;
     bottom: -6px;
