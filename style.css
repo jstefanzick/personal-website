@@ -16,8 +16,12 @@ body{
     padding: 10px 10%;
 }
 
-.splash-page{
+.index-landing-page{
     display: flex;
+}
+
+.contact-landing-page{
+
 }
 
 .headshot{
@@ -92,3 +96,41 @@ nav ul li a:hover::after{
 
 
 /* About */
+
+
+/* Contact */
+
+.email-logo{
+    width: 40px;
+    margin: 20px
+}
+
+
+.li-logo{
+    width: 40px;
+    margin: 20px
+}
+
+.gh-logo{
+    width: 40px;
+    margin: 20px;
+}
+
+
+.footer-text{
+    text-align: center;
+    font-size: x-small;
+    font-weight: bold;
+}
+
+footer{
+    margin: auto;
+    padding: 10px;
+}
+
+
+.contact-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
