@@ -2,7 +2,7 @@
     width: 100%;
     display: grid;
     justify-content: center;
-    margin-top: 8px;
+    margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -41,7 +41,7 @@
 
 .main-about{
     font-size: 75%;
-    height: 9em;
+    height: em;
     font-weight: bold;
     background-color: #E3E7D3;
     color: #262322;
@@ -52,7 +52,6 @@
 }
 
 .mini-about-container{
-    overflow: auto;
     width: 216px;
     margin-left: auto;
     margin-right: auto;
@@ -84,3 +83,48 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+@media(min-width: 320px){
+    .headshot, .photo-background{
+        height: 60vw;
+        width: 60vw;
+    }
+}
+
+
+@media(min-width: 450px){
+
+   .headshot, .photo-background{
+        height: 50vw;
+        width: 50vw;
+    }
+}
+
+
+@media(min-width: 550px){
+
+    .headshot, .photo-background{
+         height: 275px;
+         width: 275px;
+     }
+ }
+
+ @media(min-width: 834px){
+
+    .headshot, .photo-background{
+        height: 33vw;
+        width: 33vw;
+     }
+ }
+
+ @media(min-width: 1069px){
+
+    .headshot, .photo-background{
+        height: 353px;
+        width: 353px;
+     }
+ }
+
+
+
+
