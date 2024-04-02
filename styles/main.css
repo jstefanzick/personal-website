@@ -1,14 +1,14 @@
 .main-photo{
     width: 100%;
+    height: auto;
     display: grid;
     justify-content: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin-top: auto;
+    margin-bottom: 20px;
 }
+
+
 .julian-stefanzick-photo{
-    height: 200px;
-    width: 216px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +23,8 @@
     position: absolute;
 }
 
+/*
+
 .photo-background{
     position: absolute;
     background-color: #92B4A7;
@@ -35,20 +37,19 @@
     border-radius: 3px;
 }
 
+*/
+
 .main-spacer{
-    height: 15px;
+    height: 0px;
+    background-color: blue;
 }
 
 .main-about{
-    font-size: 75%;
-    height: em;
-    font-weight: bold;
     background-color: #E3E7D3;
-    color: #262322;
-    font-family: Arial, Helvetica, sans-serif;
     position: relative;
     border-radius: 5px;
     display: block;
+    margin-top: auto;
 }
 
 .mini-about-container{
@@ -57,6 +58,10 @@
     margin-right: auto;
     margin-top: 0.5em;
     margin-bottom: 0.66em;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #262322;
 }
 
 .mini-about-title{
@@ -98,6 +103,12 @@
         height: 50vw;
         width: 50vw;
     }
+
+
+    .mini-about-container{
+        width: 276px;
+        font-size: 16px;
+    }
 }
 
 
@@ -111,20 +122,29 @@
 
  @media(min-width: 834px){
 
-    .headshot, .photo-background{
-        height: 33vw;
-        width: 33vw;
-     }
  }
 
  @media(min-width: 1069px){
 
-    .headshot, .photo-background{
-        height: 353px;
-        width: 353px;
-     }
  }
 
 
 
 
+ /* Min Height 
+
+ @media(min-height: 450px){
+    .headshot, .photo-background{
+        height: 30vh;
+        width: 30vh;
+    }
+ }
+
+ @media(max-height: 450px){
+    .headshot, .photo-background{
+        height: 100px;
+        width: 100px;
+    }
+ }
+
+ */

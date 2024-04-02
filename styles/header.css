@@ -7,9 +7,10 @@
     margin-bottom: auto;
 }
 
-.mobile-nav{
-    display: grid;
-    grid-template-columns: 1fr 50px;
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
 }
 
 .home-name{
@@ -53,13 +54,14 @@
     align-items: center;
     justify-items: center;
     margin-left: 12px;
+    position: absolute;
+    right: 45px;
 }
 
 .hamburger-icon{
     height: 58%;
     width: 58%;
 }
-
 
 .desktop-nav{
     display: none;
@@ -68,22 +70,45 @@
 
 @media(min-width: 834px){
 
-    .header{
+    .nav-bar{
+        align-items: start;
+        display: flex;
+        justify-content: space-between;
     }
 
-
-
-    .mobile-nav{
-     
+    .hamburger-menu{
+        display: none;
     }
 
-    .nav-pages{
+    .desktop-nav{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        height: 71px;
-        font-size: 18px;
-        width: 300px;
+        width: 25vw;
+        margin: 0;
+        padding: 0;
+        margin-top: 14px;
     }
+
+    .desktop-page-links{
+        font-size: 15px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .resume-link
+    {
+        padding: 0;
+        margin-left: 5px;
+    }
+
+    .projects-link{
+        margin-right: 0;
+        padding: 0;
+    }
+
 }
 
 
@@ -100,8 +125,14 @@
         margin-right: auto;
     }
 
-    .mobile-nav{
+    .desktop-nav{
+        width: 255px;
     }
+
+    .desktop-page-links{
+        font-size: 15px;
+    }
+
 
 
 }
