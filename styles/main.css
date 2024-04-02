@@ -1,0 +1,86 @@
+.main-photo{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.julian-stefanzick-photo{
+    height: 200px;
+    width: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.headshot{
+    height: 165px;
+    width: 165px;
+    border-radius: 3px;
+    z-index: 2;
+    position: absolute;
+}
+
+.photo-background{
+    position: absolute;
+    background-color: #92B4A7;
+    height: 165px;
+    width: 165px;
+    z-index: 1;
+    bottom: 0;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.main-spacer{
+    height: 15px;
+}
+
+.main-about{
+    font-size: 75%;
+    height: 9em;
+    font-weight: bold;
+    background-color: #E3E7D3;
+    color: #262322;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    border-radius: 5px;
+    display: block;
+}
+
+.mini-about-container{
+    overflow: auto;
+    width: 216px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.66em;
+}
+
+.mini-about-title{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.mini-about-location{
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+.mini-about-degree{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mini-about-school{
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+.mini-about-previously{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
