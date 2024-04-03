@@ -64,9 +64,9 @@ footer{
     padding-left: 20px;
 }
 
-@media(min-width: 375px){
+@media(min-width: 450px){
     footer{
-        margin-bottom: 25px;
+        margin-bottom: 10px;
     }
 }
 
