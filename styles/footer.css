@@ -16,16 +16,16 @@ footer{
     font-size: 15px;
     font-weight: bold;
     color: #262322;
-
 }
 
 .links{
     display: flex;
     margin: 0;
     padding: 0;
-    justify-items: center;
-    margin-top: 10px;
-    margin-bottom: 25px;
+    justify-content: center;
+    align-content: top;
+    height: 50px;
+    width: 200px;
 }
 
 .email-logo{
@@ -34,6 +34,17 @@ footer{
     height: 22px;
     width: 25px;
     padding-right: 20px;
+}
+
+.email-link,
+.linkedin-link,
+.github-link{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .linkedin-logo{
@@ -53,18 +64,9 @@ footer{
     padding-left: 20px;
 }
 
-@media(min-width: 450px){
-    .contact-text{
-        margin-bottom: 10px;
-    }
-
-    .links{
-
-    }
-
-    .footer{
-        background-color: red;
-        height: 200px;
+@media(min-width: 375px){
+    footer{
+        margin-bottom: 25px;
     }
 }
 
