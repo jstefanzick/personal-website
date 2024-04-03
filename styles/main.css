@@ -1,12 +1,19 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Photo Section */
+
+
 .main-photo{
     width: 100%;
     height: auto;
     display: grid;
     justify-content: center;
-    margin-top: auto;
+    margin-top: 0;
     margin-bottom: 20px;
 }
-
 
 .julian-stefanzick-photo{
     display: flex;
@@ -39,17 +46,15 @@
 
 */
 
-.main-spacer{
-    height: 0px;
-    background-color: blue;
-}
+
+/* About Section */ 
 
 .main-about{
-    background-color: #E3E7D3;
     position: relative;
     border-radius: 5px;
     display: block;
     margin-top: auto;
+    margin-bottom: auto;
 }
 
 .mini-about-container{
@@ -60,28 +65,28 @@
     margin-bottom: 0.66em;
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     color: #262322;
 }
 
 .mini-about-title{
     margin-top: 8px;
-    margin-bottom: 0px;
+    margin-bottom: 1%;
 }
 
 .mini-about-location{
     margin-top: 0px;
-    margin-bottom: 9px;
+    margin-bottom: 12px;
 }
 
 .mini-about-degree{
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 1px;
 }
 
 .mini-about-school{
     margin-top: 0px;
-    margin-bottom: 9px;
+    margin-bottom: 12px;
 }
 
 .mini-about-previously{
@@ -89,13 +94,61 @@
     margin-bottom: 0px;
 }
 
-@media(min-width: 320px){
-    .headshot, .photo-background{
-        height: 60vw;
-        width: 60vw;
+
+
+/* Media */
+
+@media(max-width: 319px){
+    .main-photo{
+        display: none;
     }
 }
 
+@media(max-height: 449px){
+    .main-photo{
+        display: none;
+    }
+}
+
+
+@media(min-width: 320px){
+    .headshot, .photo-background{
+        height: 50vw;
+        width: 50vw;
+    }
+
+}
+
+@media(min-height: 630px){
+    .mini-about-container{
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width: 424px){
+    .mini-about-container{
+        width: 50vw;
+    }
+}
+
+
+@media(max-width: 449px){
+
+    .main-photo{
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+
+    .julian-stefanzick-photo{
+        margin-bottom: 0px;
+    }
+
+    .mini-about-container{
+        margin-top: 0;
+    }
+}
 
 @media(min-width: 450px){
 
@@ -104,11 +157,31 @@
         width: 50vw;
     }
 
-
     .mini-about-container{
-        width: 276px;
-        font-size: 16px;
+        width: 50vw;
+        font-size: 15px;
+        margin-bottom: 20px;
     }
+
+    .content{
+        margin-bottom: 20px;
+        margin-top: auto;
+    }
+
+    .mini-about-title,
+    .mini-about-degree{
+        margin-bottom: 1px;
+    }
+    
+    .mini-about-location,
+    .mini-about-school{
+        margin-bottom: 20px;
+    }
+    
+    .comma{
+        display: none;
+    }
+
 }
 
 
@@ -118,33 +191,70 @@
          height: 275px;
          width: 275px;
      }
+
+     .mini-about-container{
+        width: 276px;
+        font-size: 16px;
+    }
+
+    .new-line-break{
+        display: none;
+    }
+
+    .comma{
+        display:inline;
+    }
  }
 
  @media(min-width: 834px){
-
- }
-
- @media(min-width: 1069px){
-
- }
-
-
-
-
- /* Min Height 
-
- @media(min-height: 450px){
-    .headshot, .photo-background{
-        height: 30vh;
-        width: 30vh;
+    .content{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto;
     }
- }
 
- @media(max-height: 450px){
-    .headshot, .photo-background{
-        height: 100px;
-        width: 100px;
+    .main-photo{
+        width: 275px;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
+
+    .julian-stefanzick-photo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:none;
+        margin: 0;
+    }
+    
+    .headshot{
+
+    }
+
+    .main-about{
+        position: relative;
+        border-radius: 5px;
+        display: block;
+        margin-top: 0;
+        margin-left: 0;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-right: 25px;
+        height: 0;
+        
+    }
+
+    .mini-about-container{
+        margin-top: 50px;
+    }
+
  }
 
- */
+
+
+

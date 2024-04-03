@@ -1,6 +1,6 @@
 
 .header{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 44px;
     margin-right: 44px;
     padding-bottom: 10px;
@@ -101,7 +101,7 @@
     .resume-link
     {
         padding: 0;
-        margin-left: 5px;
+        margin-left: 3px;
     }
 
     .projects-link{
@@ -115,6 +115,7 @@
 @media(min-width: 450px){
     .header{
         margin-bottom: 20px;
+        margin-top: 10px;
     }
 }
 
@@ -129,9 +130,6 @@
         width: 255px;
     }
 
-    .desktop-page-links{
-        font-size: 15px;
-    }
 
 
 
