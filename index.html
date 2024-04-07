@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="/styles/general.css">
     <link rel="stylesheet" href="/styles/header.css">
     <link rel="stylesheet" href="/styles/main.css">
+
+    <style src="mobile_nav.js"></style>
 </head>
 <body>
     <!-- Header -->
     <nav class="header">
-        <div class="nav-bar">
-
+        <div class="home-button">
             <a class="home-link" href="/index.html">
                 <div class="home-name">
                     <div class="name-container">
@@ -23,29 +24,34 @@
                     <p class="title">Software Engineer</p>
                 </div>
             </a>
+        </div>
 
-            <div class="hamburger-menu">
-                <img class="hamburger-icon" src="images/Hamburger_icon.png">
-            </div>
+        <div class="hamburger-menu">
+            <img class="hamburger-icon" src="images/Hamburger_icon.png">
+        </div>
 
-            <div class="desktop-nav">
-                <div class="desktop-page-links">
-                    <a class="about-link" href="/about.html">
-                        <div class="about">About</div>
-                    </a>
+        <div class="desktop-menu">
+                <a class="about-link" href="/about.html">
+                    <div class="about">About</div>
+                </a>
 
-                    <a class="resume-link" href="https://www.google.com">
-                        <div class="resume">Resume</div>
-                    </a>
-        
-                    <a class="projects-link" href="/projects.html">
-                        <div class="projects">Projects</div>
-                    </a>
-                </div>
-            </div>
-
+                <a class="resume-link" href="https://www.google.com">
+                    <div class="resume">Resume</div>
+                </a>
+    
+                <a class="projects-link" href="/projects.html">
+                    <div class="projects">Projects</div>
+                </a>
         </div>
     </nav>
+
+    <div class="off-screen-menu">
+        <ul>
+            <li>About</li>
+            <li>Resume</li>
+            <li>Projects</li>
+        </ul>
+    </div>
 
     <!-- Main Content-->
     <div class="content">
