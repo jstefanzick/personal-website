@@ -15,36 +15,17 @@
     margin-bottom: 20px;
 }
 
-.julian-stefanzick-photo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
+
 
 .headshot{
     height: 165px;
     width: 165px;
     border-radius: 3px;
-    z-index: 2;
-    position: absolute;
 }
 
-/*
-
-.photo-background{
-    position: absolute;
-    background-color: #92B4A7;
-    height: 165px;
-    width: 165px;
-    z-index: 1;
-    bottom: 0;
-    margin-left: 22px;
-    margin-bottom: 10px;
-    border-radius: 3px;
+.headshot .ham-menu.active{
+    width: 400px;
 }
-
-*/
 
 
 /* About Section */ 
@@ -140,11 +121,6 @@
         margin-bottom: 5px;
     }
 
-
-    .julian-stefanzick-photo{
-        margin-bottom: 0px;
-    }
-
     .mini-about-container{
         margin-top: 0;
     }
@@ -222,18 +198,6 @@
         justify-content: center;
         margin-top: 30px;
         margin-bottom: 30px;
-    }
-
-    .julian-stefanzick-photo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position:none;
-        margin: 0;
-    }
-    
-    .headshot{
-
     }
 
     .main-about{
