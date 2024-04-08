@@ -1,7 +1,7 @@
 .off-screen-menu{
   background-color: black;
   color: white;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   max-width: 450px;
   position: fixed;
@@ -18,6 +18,10 @@
 
 .off-screen-menu.active{
   right: 0;
+}
+
+.off-screen-menu.inactive{
+  right: -450px;
 }
 
 .ham-menu{
@@ -87,7 +91,6 @@
 .ham-resume,
 .ham-projects{
   cursor: pointer;
-  margin: 10px;
   height: 50px;
   width: 150px;
   display: grid;
@@ -95,6 +98,16 @@
   align-items: center;
   border-radius: 10px;
   margin-right: 50px;
+}
+
+
+
+@media(max-height: 549px){
+  .ham-about-link,
+  .ham-resume-link,
+  .ham-projects-link{
+    margin: 0px;
+  }
 }
 
 
