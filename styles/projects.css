@@ -1,0 +1,20 @@
+.projects-content{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: auto;
+  width: auto;
+  margin-top: 100px;
+}
+
+@media(max-width: 449px){
+  .projects-content{
+    margin-top: 0;
+  }
+}
+
+@media(max-height: 500px){
+  .projects-content{
+    margin-top: 0;
+  }
+}
