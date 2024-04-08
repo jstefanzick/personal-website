@@ -1,0 +1,77 @@
+.resume-content{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.resume-download{
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: grid;
+  align-content: center;
+}
+
+.google-drive-link{
+  padding: 25px;
+  text-decoration: none;
+  color: white;
+  background-color: #92B4A7;
+}
+
+.google-drive-link:hover{
+  background-color: #262322;
+  color: #F0F4EF;
+}
+
+.resume-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.experience{
+  padding: 10px;
+  height: 100%;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  margin-top: 25px;
+  font-size: 15px;
+  margin-left: 44px;
+  margin-right: 44px;
+  background-color: #E3E7D3;
+}
+
+.exp-company{
+  font-weight: bold;
+}
+
+.exp-dates,
+.exp-location{
+  font-size: 12px;
+}
+
+.exp-summary{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 449px){
+
+  .resume-download{
+    margin-bottom: 0;
+  }
+  .google-drive-link{
+    padding: 10px;
+  }
+}
