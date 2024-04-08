@@ -21,11 +21,12 @@
 }
 
 .ham-menu{
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   margin-left: auto;
   position: relative;
   cursor: pointer;
+  margin-top: 5px;
 }
 
 .ham-menu span{
@@ -67,5 +68,32 @@
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+.ham-list{
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.ham-about-link,
+.ham-resume-link,
+.ham-projects-link{
+  text-decoration: none;
+  color: #F0F4EF;
+  margin: 10px;
+}
+
+.ham-about,
+.ham-resume,
+.ham-projects{
+  cursor: pointer;
+  margin: 10px;
+  height: 50px;
+  width: 150px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
 
 

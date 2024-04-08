@@ -89,6 +89,7 @@ nav{
         display: grid;
         justify-content: center;
         align-items: center;
+        color: #262322;
     }
 
     .resume
