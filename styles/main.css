@@ -93,7 +93,6 @@
         margin-bottom: 20px;
         margin-top: 0;
     }
-
 }
 
 @media(min-height: 630px){
@@ -102,13 +101,11 @@
     }
 }
 
-
 @media(max-width: 424px){
     .main-about{
         width: 50vw;
     }
 }
-
 
 @media(max-width: 449px){
 
@@ -154,7 +151,6 @@
     .comma{
         display: none;
     }
-
 
     .index-content.active{
         margin-left: -240px;

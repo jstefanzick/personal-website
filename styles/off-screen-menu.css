@@ -7,20 +7,24 @@
   top: 0;
   right: -450px;
   display: flex;
+  visibility: hidden;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 15px;  /* 3rem */ 
+  font-size: 15px;  
   transition: .3s ease;
+  z-index: 1;
 }
 
 .off-screen-menu.active{
   right: 0;
+  visibility:visible;
 }
 
 .off-screen-menu.inactive{
   right: -450px;
+  transition: .3s ease;
 }
 
 .ham-menu{
@@ -30,6 +34,7 @@
   position: relative;
   cursor: pointer;
   margin-top: 5px;
+  z-index: 2;
 }
 
 .ham-menu span{

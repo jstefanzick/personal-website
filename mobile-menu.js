@@ -1,15 +1,21 @@
 const hamMenu = document.querySelector('.ham-menu');
 const offScreenMenu = document.querySelector('.off-screen-menu');
 const footerClick = document.querySelector('footer');
-
 const aboutContent = document.querySelector('.about-content');
 const indexContent = document.querySelector('.index-content');
 const resumeContent = document.querySelector('.resume-content');
 const projectsContent = document.querySelector('.projects-content')
 const navHome = document.querySelector('nav')
 
+
 hamMenu.addEventListener('click', () => {
   toggleActive();
+});
+
+hamMenu.addEventListener("keypress", function(event){
+  if(event.key === "Enter"){
+    toggleActive();
+  }
 });
 
 window.onresize = function () {

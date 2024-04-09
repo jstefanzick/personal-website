@@ -14,31 +14,10 @@
     </head>
     <body>
         <!-- Header -->
-
-        <div class="off-screen-menu">
-            <ul class="ham-list">
-                <li>
-                    <a class="ham-about-link" href="/about.html">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a class="ham-resume-link" href="/resume.html">
-                        Resume
-                    </a>
-                </li>
-                <li>
-                    <a class="ham-projects-link" href="/projects.html">
-                        Projects
-                    </a>
-                </li>
-            </ul>
-        </div>
-
         <nav class="header">
-            <div class="home-button">
+            <div  class="home-button">
                 <a class="home-link" href="/index.html">
-                    <div class="home-name">
+                    <div tabindex="0" class="home-name">
                         <div class="name-container">
                             <p class="first-name">Julian</p>
                             <p class="last-name">Stefanzick</p>
@@ -48,26 +27,49 @@
                 </a>
             </div>
 
-            <div class="ham-menu">
+            <div tabindex="0" class="ham-menu">
                 <span class="ham-span"></span>
                 <span class="ham-span"></span>
                 <span class="ham-span"></span>
             </div>
+
+            <div class="off-screen-menu">
+                <ul class="ham-list">
+                    <li>
+                        <a class="ham-about-link" href="/about.html">
+                            <div tabindex="0">About</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="ham-resume-link" href="/resume.html">
+                            <div tabindex="0">Resume</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="ham-projects-link" href="/projects.html">
+                            <div tabindex="0">Projects</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
 
             <div class="desktop-menu">
                     <a class="about-link" href="/about.html">
-                        <div class="about">About</div>
+                        <div tabindex="0" class="about">About</div>
                     </a>
 
                     <a class="resume-link" href="/resume.html">
-                        <div class="resume">Resume</div>
+                        <div tabindex="0" class="resume">Resume</div>
                     </a>
         
                     <a class="projects-link" href="/projects.html">
-                        <div class="projects">Projects</div>
+                        <div tabindex="0" class="projects">Projects</div>
                     </a>
             </div>
         </nav>
+
+
 
         <!-- Main Content-->
         <div class="resume-content">
@@ -146,7 +148,7 @@
 
             <div class="resume-download">
                 <a class="google-drive-link" href="https://drive.google.com/file/d/1Z2wdfDJ6Yw9bP8PbRAahstVh7URhZrJo/view?usp=sharing">
-                    Download Resume
+                    <div tabindex="0">Download Resume</div>
                 </a>
             </div>
 
@@ -160,18 +162,24 @@
 
             <div class="links">
                 <a class="email-link" href="mailto:julianstefanzick@gmail.com">
-                    <img class="email-logo" src="images/email.png">
+                    <div tabindex="0">
+                        <img class="email-logo" src="images/email.png" alt="email-icon">
+                    </div>
                 </a>
                 <a class="linkedin-link" href="https://www.linkedin.com/in/julianstefanzick/" target="_blank">
-                    <img class="linkedin-logo" src="images/LI-In-Bug.png">
+                    <div tabindex="0">
+                        <img class="linkedin-logo" src="images/LI-In-Bug.png" alt="linkedin-logo">
+                    </div>
                 </a>
 
                 <a class="github-link" href="https://github.com/jstefanzick" target="_blank">
-                    <img class="github-logo" src="images/github-mark.png">
+                    <div tabindex="0">
+                        <img class="github-logo" src="images/github-mark.png" alt="github-logo">
+                    </div>
                 </a>
-
             </div>
         </footer>
+
         <script src="mobile-menu.js"></script>
     </body>
 </html> 
