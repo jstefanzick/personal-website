@@ -2,7 +2,8 @@
   display: grid;
   justify-items: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: auto;
+  margin-top: auto;
 }
 
 .resume-download{
@@ -60,16 +61,16 @@
 }
 
 
-
-
-
-
+.exp-summary-list{
+  margin-right: 10px;
+  margin-left: -20px;
+}
 
 
 @media(max-width: 449px){
 
   .resume-download{
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
   .google-drive-link{
     padding: 10px;

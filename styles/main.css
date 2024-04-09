@@ -55,7 +55,7 @@
 }
 
 .mini-about-location{
-    margin-top: 0px;
+    margin-top: 30px;
     margin-bottom: 12px;
 }
 
@@ -92,9 +92,12 @@
 
 
 @media(min-width: 320px){
-    .headshot, .photo-background{
-        height: 50vw;
-        width: 50vw;
+    .headshot{
+        height: 40vw;
+        width: 40vw;
+        border-radius: 20vw;
+        margin-bottom: 20px;
+        margin-top: 0;
     }
 
 }
@@ -130,6 +133,7 @@
    .headshot, .photo-background{
         height: 50vw;
         width: 50vw;
+        border-radius: 25vw;
     }
 
     .main-about{
@@ -181,6 +185,12 @@
     }
  }
 
+ @media(max-width: 833px){
+    .mini-about-location{
+        margin-top: 0px;
+    }
+ }
+
  @media(min-width: 834px){
     .content{
         display: flex;
@@ -208,7 +218,6 @@
         margin-bottom: 30px;
         margin-right: 25px;
     }
-
  }
 
 
