@@ -37,6 +37,11 @@
   z-index: 2;
 }
 
+.ham-menu.active{
+  position: fixed;
+  right: 44px;
+}
+
 .ham-menu span{
   height: 5px;
   width: 100%;
@@ -109,6 +114,7 @@
 @media(max-width: 449px){
   .off-screen-menu{
     width: 100%;
+    height: 100vh;
   }
 }
 
