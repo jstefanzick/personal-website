@@ -6,6 +6,7 @@ nav{
     margin-bottom: auto;
     display: flex;
     justify-content: space-between;
+    transition: margin-left 0.5s;
 }
 
 .home-link{
@@ -55,6 +56,13 @@ nav{
 
 .desktop-menu{
     display: none;
+}
+
+
+@media(max-width: 631px) and (min-width: 450px) {
+    nav.active{
+        margin-left: 7vw;
+    }
 }
 
 

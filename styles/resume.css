@@ -1,7 +1,6 @@
 .resume-content{
   display: grid;
   justify-items: center;
-  align-items: center;
   margin-bottom: auto;
   margin-top: auto;
 }
@@ -74,5 +73,24 @@
   }
   .google-drive-link{
     padding: 10px;
+  }
+}
+
+
+@media(min-width: 450px){
+  .resume-content.active .resume-container{
+    width: 50vw;
+    margin-left: -230px;
+
+  }
+
+  .resume-content.active .resume-download{
+    margin-left: -230px;
+  }
+
+
+  .resume-content.active .google-drive-link{
+    padding: 10px;
+    margin-left: 0;
   }
 }

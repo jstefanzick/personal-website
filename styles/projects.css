@@ -4,8 +4,18 @@
   align-content: center;
   height: auto;
   width: auto;
-  margin-top: 100px;
+  margin-top: 20vh;
 }
+
+
+@media(min-width: 450px) {
+  .projects-content.active{
+    width: 60%;
+    margin-left: 7vw;
+  }
+}
+
+
 
 @media(max-width: 449px){
   .projects-content{
@@ -18,3 +28,24 @@
     margin-top: 0;
   }
 }
+
+
+@media(min-width: 580px){
+  .projects-content.active{
+    margin-left: 4vw;
+  }
+}
+
+@media(max-width: 579px) and (min-width: 450px){
+  .projects-content.active{
+    margin-right: auto;
+    width: 30%;
+  }
+}
+
+@media(min-width: 660px){
+  .projects-content.active{
+    margin-left: 7vw;
+  }
+}
+

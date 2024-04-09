@@ -2,6 +2,12 @@ const hamMenu = document.querySelector('.ham-menu');
 const offScreenMenu = document.querySelector('.off-screen-menu');
 const footerClick = document.querySelector('footer');
 
+const aboutContent = document.querySelector('.about-content');
+const indexContent = document.querySelector('.index-content');
+const resumeContent = document.querySelector('.resume-content');
+const projectsContent = document.querySelector('.projects-content')
+const navHome = document.querySelector('nav')
+
 hamMenu.addEventListener('click', () => {
   toggleActive();
 });
@@ -27,6 +33,23 @@ toggleActive = () => {
   hamMenu.classList.toggle('active');
   offScreenMenu.classList.toggle('active');
   footerClick.classList.toggle('active');
+  navHome.classList.toggle('active');
+
+  if(aboutContent){
+    aboutContent.classList.toggle('active');
+  }
+
+  if(indexContent){
+    indexContent.classList.toggle('active');
+  }
+
+  if(resumeContent){
+    resumeContent.classList.toggle('active');
+  }
+
+  if(projectsContent){
+    projectsContent.classList.toggle('active');
+  }
 };
 
 

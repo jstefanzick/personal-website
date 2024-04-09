@@ -67,13 +67,20 @@ footer{
         display: grid;
         justify-items: center;
         margin-top: auto;
-        margin-left: 5px;
+        margin-left: 1vw;
     }
 }
 
 @media(min-width: 580px){
     footer.active{
-        width: 60vw;
-        margin-left: 5vw;
+        width: 50vw;
+        margin-left: 7vw;
+    }
+}
+
+@media(min-width: 660px){
+    footer.active{
+        width: 50vw;
+        margin-left: 10vw;
     }
 }
