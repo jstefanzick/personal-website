@@ -19,14 +19,15 @@ footer{
 }
 
 .links{
-    display: flex;
+    display: grid;
+    grid-template-columns: 25px 25px 25px;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
-    justify-content: center;
-    align-content: top;
-    height: 50px;
+    height: 22px;
     width: 200px;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .email-logo{
@@ -42,9 +43,6 @@ footer{
 .github-link{
     height: 100%;
     width: 100%;
-    display: grid;
-    justify-content: center;
-    align-items: center;
 
 }
 
@@ -53,8 +51,6 @@ footer{
     margin: 0;
     height: 20px;
     width: 23.51px;
-    padding-right: 20px;
-    padding-left: 20px;
 }
 
 .github-logo{
@@ -62,13 +58,22 @@ footer{
     margin: 0;
     height: 22px;
     width: 22px;
-    padding-left: 20px;
 }
 
 @media(min-width: 450px){
-    footer{
+    footer.active{
         margin-bottom: 10px;
+        width: 40vw;
+        display: grid;
+        justify-items: center;
+        margin-top: auto;
+        margin-left: 5px;
     }
 }
 
-
+@media(min-width: 580px){
+    footer.active{
+        width: 60vw;
+        margin-left: 5vw;
+    }
+}
