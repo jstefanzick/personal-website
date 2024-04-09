@@ -30,9 +30,9 @@ nav{
 }
 
 .name-container:hover{
-    box-shadow: 20px 20px 1px #E3E7D3, 
-    0px 20px 1px #E3E7D3,
-    -10px 10px 1px #92B4A7;
+    box-shadow: 20px 20px 1px #008BF8, 
+    0px 20px 1px #008BF8,
+    -10px 10px 1px #F45B69;
 }
 
 .first-name,
@@ -111,7 +111,7 @@ nav{
     .projects-link:hover{
         font-size: 16px;
         font-weight: bolder;
-        color: #659B5E;
+        color: #008BF8;
     }
 
 

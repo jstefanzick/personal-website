@@ -14,36 +14,48 @@
   cursor: pointer;
   display: grid;
   align-content: center;
+  border-radius: 50px;
+  color: #FEF9FF;
+  background-color: #008BF8;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .google-drive-link{
   padding: 25px;
   text-decoration: none;
-  color: white;
-  background-color: #92B4A7;
+  color: #FEF9FF;
+}
+
+.resume-download:hover{
+  background-color: #FAFFD8;
 }
 
 .google-drive-link:hover{
-  background-color: #262322;
-  color: #F0F4EF;
+  color: #172121;
 }
+
+
 
 .resume-container{
   display: flex;
   flex-direction: column;
+  margin-top: 0px;
 }
 
 .experience{
   padding: 10px;
   height: 100%;
   border: 2px;
-  border-color: black;
+  border-color: #484A47;
   border-style: solid;
   margin-top: 25px;
   font-size: 15px;
   margin-left: 44px;
   margin-right: 44px;
-  background-color: #E3E7D3;
+  background-color: #172121;
+  color: #FEF9FF;
+  border-radius: 20px;
 }
 
 .exp-company{
