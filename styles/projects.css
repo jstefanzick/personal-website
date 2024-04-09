@@ -1,5 +1,5 @@
 .projects-content{
-  display: grid;
+  display: flex;
   justify-content: center;
   align-content: center;
   height: auto;
@@ -7,45 +7,37 @@
   margin-top: 20vh;
 }
 
-
-@media(min-width: 450px) {
-  .projects-content.active{
-    width: 60%;
-    margin-left: 7vw;
-  }
-}
-
-
-
 @media(max-width: 449px){
   .projects-content{
     margin-top: 0;
   }
 }
 
-@media(max-height: 500px){
-  .projects-content{
-    margin-top: 0;
+@media(min-width: 450px) {
+
+  .projects-content.active h1{
+    margin-right: 260px;
+    font-size: 27px;
   }
 }
 
+@media(max-height: 500px){
+  .projects-content{
+  }
+}
 
 @media(min-width: 580px){
   .projects-content.active{
-    margin-left: 4vw;
   }
 }
 
 @media(max-width: 579px) and (min-width: 450px){
   .projects-content.active{
-    margin-right: auto;
-    width: 30%;
   }
 }
 
 @media(min-width: 660px){
   .projects-content.active{
-    margin-left: 7vw;
   }
 }
 

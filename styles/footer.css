@@ -63,24 +63,17 @@ footer{
 @media(min-width: 450px){
     footer.active{
         margin-bottom: 10px;
-        width: 40vw;
+        width: 100%;
         display: grid;
         justify-items: center;
         margin-top: auto;
-        margin-left: 1vw;
     }
-}
 
-@media(min-width: 580px){
-    footer.active{
-        width: 50vw;
-        margin-left: 7vw;
+    footer.active .links{
+        margin-right: 260px;
     }
-}
 
-@media(min-width: 660px){
-    footer.active{
-        width: 50vw;
-        margin-left: 10vw;
+    footer.active .contact-text{
+        margin-right: 260px;
     }
 }
